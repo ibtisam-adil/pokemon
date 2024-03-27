@@ -48,3 +48,5 @@ const renderPokemon = () => {
       </div>`
   )).join('');
 };
+
+renderPokemon();

@@ -288,7 +288,7 @@ nav.sticky {
 .popup-poke-name {
   font-weight: 900;
   font-size: 3rem;
-  color: #FFFF00;
+  color: #ffff00;
 }
 
 .popup-poke-type {
@@ -297,9 +297,7 @@ nav.sticky {
   justify-content: end;
   font-size: 2rem;
   font-weight: 600;
-  /* color: #f0e68c; */
   color: #333333;
-
 }
 
 .popup-base-exp {
@@ -318,7 +316,7 @@ nav.sticky {
 .popup-w-h {
   display: flex;
   justify-content: space-between;
-  color: #F9E8C9;
+  color: #f9e8c9;
   padding: 1rem;
   font-size: 2.2rem;
 }
