@@ -7,37 +7,124 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- NAVBAR -->
-    <nav class="navbar">
-        <div class="nav-wrapper">
-            <div class="nav-logo">
-                <img class="poke-logo" src="./pokemon-logo.png" alt="Pokemon Logo"/>
+    <!-- WRAPPER -->
+    <section  id="blur" class="site-content">
+        <!-- NAVBAR -->
+        <nav class="navbar">
+            <div class="nav-wrapper">
+                <div class="nav-logo">
+                    <img class="poke-logo" src="./images/pokemon-logo.png" alt="Pokemon Logo"/>
+                </div>
+                <div class="links">
+                    <a href="#home">Home</a>
+                    <a href="#types">Types</a>
+                    <a href="#pokedex">Pokedex</a>
+                    <a href="#news">News</a>
+                </div>
             </div>
-            <div class="elements">
-                <a href="#home">Home</a>
-                <a href="#types">Types</a>
-                <a href="#pokedex">Pokedex</a>
-                <a href="#news">News</a>
+        </nav>
+        <!-- HEROSECTION -->
+        <header class="hero">
+            <div class="choose-pokemon">
+                <img class="pokemonlogo-img" src="./images/pokemon-23.svg" />
+                <h1 class="main-h">CHOOSE YOUR POKEMON</h1>
+                <img src="./images/pokeball.png" alt="Pokeball" class="pokeball" >
+            </div>
+            <div class="pokeball-container">
+                <img src="./images/rock.png" alt="Rock" class="type-icon rock">
+                <img src="./images/water.png" alt="Water" class="type-icon water">
+                <img src="./images/lightning.png" alt="Lightning" class="type-icon lightning">
+                <img src="./images/fire.png" alt="Fire" class="type-icon fire">
+            </div>
+        </header>
+        <!-- CARDS -->
+        <section class="pokemon-card">
+            <div class="cards-wrapper">
+                <div class="pokemon">
+                    <div class="name-img">
+                        <div class="name-type">
+                            <div class="poke-type">
+                                <p>FIRE</p>
+                            </div>
+                            <div class="poke-name">
+                                <p>CHARMANDER</p>
+                            </div>
+                        </div>
+                        <p class="base-exp">Base Experience: 63</p>
+                        <div class="pokemon-img">
+                            <img src="./images/37543-2-pokemon-picture.png" width="200px"/>
+                        </div>
+                    </div>
+                    <div class="poke-features">
+                        <div class="w-h">
+                            <div class="poke-weight desc-style">
+                                <p>Weight: 90kg</p>
+                            </div>
+                            <div class="height desc-style">
+                                Height: 5'
+                            </div>
+                        </div>
+                        <div class="poke-abilities desc-style">
+                            <p>Abilities: 
+                                <ul class="ul">
+                                    <li>torrent</li>
+                                    <li>rain-dish</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <p class="best-moveset desc-style">BEST MOVESET</p>
+                        <div class="line"></div>
+                        <div class="desc-style">
+                            <p>Mega-punch</p>
+                            <p>Ice-punch</p>
+                        </div>
+                        <button class="see-more">See More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="popup">
+        <div class="close">
+            <span id="cross">&times;</span>
+        </div>
+        <div class="popup-wrapper">
+            <div class="popup-img">
+                <img src="./images/37543-2-pokemon-picture.png" width="350px" height="420px"/>
+            </div>
+            <div class="popup-description">
+                <div class="name-type">
+                    <div class="popup-poke-type">
+                        <p>FIRE</p>
+                    </div>
+                    <div class="popup-poke-name">
+                        <p>CHARMANDER</p>
+                    </div>
+                </div>
+                <p class="popup-base-exp">Base Experience: 63</p>
+                <p class="poke-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda optio aperiam nam vel nihil dicta illum consequuntur similique animi, qui vitae error rerum dolorum aut, quibusdam ex consequatur sunt voluptate, ut inventore laudantium eveniet iusto quaerat. Error veniam minima quam.
+                </p>
+                <div class="popup-w-h">
+                    <p>Weight: 90kg</p>
+                    <p>Height: 5'</p>
+                </div>
+                <div class="ability">
+                    <p>Abilities
+                        <ul class="ul">
+                            <li>torrent</li>
+                            <li>rain-dish</li>
+                        </ul>
+                    </p>
+                </div>
+                <p class="popup-moveset">BEST MOVESET</p>
+                <div class="line"></div>
+                <div class="movesets">
+                    <p>Mega-punch</p>
+                    <p>Ice-punch</p>
+                </div>
             </div>
         </div>
-    </nav>
-    <!-- HEROSECTION -->
-    <header class="hero">
-        <div class="choose-pokemon">
-            <img class="pokemon-img" src="./pokemon-23.svg" />
-            <h1 class="main-h">CHOOSE YOUR POKEMON</h1>
-            <img src="./pokeball.png" alt="Pokeball" class="pokeball" >
-        </div>
-        <div class="pokeball-container">
-            <img src="./rock.png" alt="Rock" class="type-icon rock">
-            <img src="./water.png" alt="Water" class="type-icon water">
-            <img src="./lightning.png" alt="Lightning" class="type-icon lightning">
-            <img src="./fire.png" alt="Fire" class="type-icon fire">
-        </div>
-    </header>
-    <section class="water-types"></section>
-    <section class="lightning-types"></section>
-    <section class="rock-types"></section>
-    <section class="fire-types"></section>
+    </section>
 </body>
 </html>
