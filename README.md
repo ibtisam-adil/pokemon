@@ -7,3 +7,33 @@
 <a href="https://www.freepik.com/free-photo/3d-render-flash-lightning-sale-thunder-bolt-icon_35817152.htm#fromView=search&page=1&position=22&uuid=fbca7045-104d-4167-b35c-9fad9f5c10d4">Image by upklyak on Freepik</a>
 
 <a href="https://www.freepik.com/free-vector/textured-background-design_919046.htm#fromView=search&page=1&position=7&uuid=dfffca56-d7f0-4cf3-ac26-838ecc5b51ed">Image by asmaarzq on Freepik</a>
+
+
+/* LIGHTNING TYPES  */
+/* .electric-types {
+  height: 100vh;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+} */
+
+/* ROCK TYPES  */
+/* .rock-types {
+  height: 100vh;
+  background: linear-gradient(
+    87.4deg,
+    rgb(255, 241, 165) 1.9%,
+    rgb(200, 125, 76) 49.7%,
+    rgb(83, 54, 54) 100.5%
+  );
+} */
+
+/* FIRE TYPES  */
+/* .fire-types {
+  height: 100vh;
+  background-color: #ffcb43;
+  background-image: linear-gradient(
+    319deg,
+    #ffcb43 0%,
+    #ff6425 37%,
+    #ff0016 100%
+  );
+} */
