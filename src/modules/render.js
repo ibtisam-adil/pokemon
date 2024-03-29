@@ -1,8 +1,9 @@
 import { pokemons } from './array.js';
+import renderPopup from './popup.js';
 
 const renderPokemon = () => {
   const pokemonCard = document.querySelector('.pokemon-card');
-  pokemonCard.innerHTML = pokemons.map((pokemon) => (
+  pokemonCard.innerHTML = pokemons.map((pokemon, id) => (
     `<div class="cards-wrapper">
         <div class="pokemon">
           <div class="name-img">
@@ -11,25 +12,25 @@ const renderPokemon = () => {
                 <p>${pokemon.types[0].type.name}</p>
               </div>
               <div class="poke-name">
-                <p>CHARMANDER</p>
+                <p>${pokemon.name}</p>
               </div>
             </div>
-            <p class="base-exp">Base Experience: 63</p>
+            <p class="base-exp">Base Experience: ${pokemon.base_experience}</p>
             <div class="pokemon-img">
-              <img src="./images/37543-2-pokemon-picture.png" width="200px"/>
+              <img src="${pokemon.sprites.front_default}"/>
             </div>
           </div>
           <div class="poke-features">
             <div class="w-h">
               <div class="poke-weight desc-style">
-                <p>Weight: 90kg</p>
+                <p>Weight: ${pokemon.weight}</p>
               </div>
               <div class="height desc-style">
-                Height: 5'
+                Height: ${pokemon.height}'
               </div>
             </div>
             <div class="poke-abilities desc-style">
-              <p>Abilities: 
+              <p>Abilities:
                 <ul class="ul">
                   <li>${pokemon.abilities[0].ability.name}</li>
                   <li>${pokemon.abilities[1].ability.name}</li>
@@ -39,14 +40,27 @@ const renderPokemon = () => {
             <p class="best-moveset desc-style">BEST MOVESET</p>
             <div class="line"></div>
             <div class="desc-style">
-              <p>Mega-punch</p>
-              <p>Ice-punch</p>
+              <p>${pokemon.moves[0].move.name}</p>
+              <p>${pokemon.moves[1].move.name}</p>
             </div>
-            <button class="see-more">See More</button>
+            <button id="${id}" class="see-more">See More</button>
           </div>
         </div>
       </div>`
   )).join('');
+  const togglePopup = () => {
+    const blur = document.querySelector('#blur');
+    const popup = document.querySelector('#popup');
+    blur.classList.toggle('active');
+    popup.classList.toggle('active');
+  };
+  const seeMore = document.querySelectorAll('.see-more');
+  seeMore.forEach((btn, id) => {
+    btn.addEventListener('click', () => {
+      renderPopup(id);
+      togglePopup();
+    });
+  });
 };
 
-renderPokemon();
+export default renderPokemon;
