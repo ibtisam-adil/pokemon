@@ -1,19 +1,15 @@
 const pokemons = [];
-const pokeNames = ['squirtle', 'milotic', 'greninja', 'primarina', 'pikachu', 'jolteon', 'ampharos', 'luxray', 'tyranitar', 'aerodactyl', 'carbink', 'charizard', 'arcanine', 'ninetales', 'talonflame'];
+const pokeNames = ['gyarados', 'milotic', 'greninja', 'primarina', 'electivire', 'raikou', 'ampharos', 'luxray', 'tyranitar', 'aerodactyl', 'gigalith', 'charizard', 'arcanine', 'ninetales', 'talonflame'];
 
-async function fetchPokemonData() {
+async function fetchPokemonData(renderPokemon) {
   const responses = await Promise.all(
     pokeNames.map((name) => fetch(`https://pokeapi.co/api/v2/pokemon/${name}`)),
   );
 
   const data = await Promise.all(responses.map((response) => response.json()));
   pokemons.push(...data);
-  console.log(pokemons);
-  pokemons.forEach((pokemon) => {
-    const spriteUrl = pokemon.sprites.front_default;
-    console.log(spriteUrl);
-  });
+  renderPokemon();
 }
 
-export default fetchPokemonData();
+export default fetchPokemonData;
 export { pokemons };
