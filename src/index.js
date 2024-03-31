@@ -10,3 +10,4 @@ class Pokemon {
 
 const pokemonn = new Pokemon();
 pokemonn.fetchPokeData();
+// pokemonn.display();

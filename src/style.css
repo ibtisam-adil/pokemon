@@ -205,8 +205,8 @@ nav.sticky {
 }
 
 .pokemon-img img {
-  width: 170px;
-  height: 170px;
+  width: 140px;
+  height: 130px;
 }
 
 .desc-style {
@@ -253,6 +253,21 @@ ul.ul li {
   border-radius: 10px;
   width: 60%;
   margin-top: 1rem;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 0.5rem 0.8rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.heart {
+  display: flex;
+  font-size: 4rem;
+  color: white;
 }
 
 /* BLUR */
@@ -367,4 +382,23 @@ ul.ul li {
   visibility: visible;
   transition: 0.5s;
   opacity: 1;
+}
+
+#comments-popup {
+  background-color: white;
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1100px;
+  height: 590px;
+  padding: 2rem;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+
+  /* visibility: hidden; */
+
+  /* opacity: 0; */
+  transition: 0.5s;
+  border-radius: 13px;
 }
