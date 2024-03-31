@@ -1,7 +1,11 @@
 import { pokemons } from './array.js';
 import renderPopup from './popup.js';
+import Likes from './likes.js';
+
+const likes = new Likes();
 
 const renderPokemon = () => {
+  likes.getLikes();
   const pokemonCard = document.querySelector('.pokemon-card');
   pokemonCard.innerHTML = pokemons.map((pokemon, id) => (
     `<div class="cards-wrapper">
@@ -44,6 +48,10 @@ const renderPokemon = () => {
               <p>${pokemon.moves[1].move.name}</p>
             </div>
             <button id="${id}" class="see-more">See More</button>
+            <div class="likes">
+              <span id="${id}" class="heart">&hearts;</span>
+              <p data-id="${id}">Likes</p>
+            </div>  
           </div>
         </div>
       </div>`
@@ -59,6 +67,15 @@ const renderPokemon = () => {
     btn.addEventListener('click', () => {
       renderPopup(id);
       togglePopup();
+    });
+  });
+
+  const heart = document.querySelectorAll('.heart');
+  heart.forEach((hearts) => {
+    hearts.addEventListener('click', (e) => {
+      e.target.style.color = 'red';
+      likes.updateLikes(e.target.id);
+      renderPokemon();
     });
   });
 };
