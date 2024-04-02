@@ -4,13 +4,14 @@ class Likes {
   }
 
   updateLikes = async (index) => {
-    fetch(this.link, {
+    await fetch(this.link, {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify({
         item_id: index,
       }),
     });
+    this.getLikes();
   };
 
   getLikes = async () => {
@@ -18,7 +19,7 @@ class Likes {
     const data = await response.json();
     data.forEach((data) => {
       const likeCounter = document.querySelector(`[data-id='${data.item_id}']`);
-      likeCounter.innerHTML = data.likes;
+      likeCounter.innerHTML = `${data.likes} Likes`;
     });
   }
 }

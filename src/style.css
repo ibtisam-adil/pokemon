@@ -109,22 +109,22 @@ nav.sticky {
 
 .rock {
   top: 52%;
-  left: 24%;
+  left: 30%;
 }
 
 .water {
-  top: 47%;
-  left: 70%;
+  top: 50%;
+  left: 65%;
 }
 
 .lightning {
-  top: 79%;
-  left: 22%;
+  top: 74%;
+  left: 28%;
 }
 
 .fire {
-  top: 77%;
-  left: 69%;
+  top: 73%;
+  left: 64.3%;
 }
 
 /* TYPES */
@@ -162,6 +162,7 @@ nav.sticky {
   padding: 2rem;
   max-width: 350px;
   min-height: 460px;
+  max-height: 540px;
 }
 
 .name-img {
@@ -173,7 +174,7 @@ nav.sticky {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .poke-type {
@@ -223,7 +224,7 @@ nav.sticky {
 
 .ul {
   display: flex;
-  gap: 3rem;
+  gap: 1.5rem;
   padding: 0;
   list-style-type: lower-roman;
   list-style-position: inside;
@@ -268,6 +269,7 @@ ul.ul li {
   display: flex;
   font-size: 4rem;
   color: white;
+  cursor: pointer;
 }
 
 /* BLUR */
@@ -287,7 +289,7 @@ ul.ul li {
   transform: translate(-50%, -50%);
   width: 1100px;
   height: 590px;
-  padding: 2rem;
+  padding: 0.5rem 1rem;
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
   z-index: 100;
   visibility: hidden;
@@ -314,18 +316,18 @@ ul.ul li {
   width: 43%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .popup-description {
   width: 57%;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
 }
 
 .popup-poke-name {
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 2.7rem;
   color: #ff0;
 }
 
@@ -333,47 +335,47 @@ ul.ul li {
   width: 100%;
   display: flex;
   justify-content: end;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   color: #333;
 }
 
 .popup-base-exp {
-  font-size: 1.9rem;
-  padding: 1rem;
+  font-size: 1.7rem;
+  padding: 0.5rem;
   color: #000;
 }
 
 .poke-desc {
-  font-size: 1.9rem;
-  line-height: 2.5rem;
-  padding: 1rem;
+  font-size: 1.7rem;
+  line-height: 2.3rem;
+  padding: 0.5rem;
   color: #333;
 }
 
 .popup-w-h {
   display: flex;
   justify-content: space-between;
-  color: #f9e8c9;
-  padding: 1rem;
-  font-size: 2.2rem;
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 1.7rem;
 }
 
 .ability {
-  padding: 1rem;
-  font-size: 2.4rem;
+  padding: 0.5rem;
+  font-size: 2.1rem;
   font-weight: 500;
 }
 
 .popup-moveset {
-  padding: 1rem;
-  font-size: 2.4rem;
+  padding: 0.5rem;
+  font-size: 2.1rem;
   font-weight: bold;
 }
 
 .movesets {
-  padding: 1rem;
-  font-size: 2.2rem;
+  padding: 0.5rem;
+  font-size: 2rem;
   color: #333;
 }
 
@@ -384,21 +386,223 @@ ul.ul li {
   opacity: 1;
 }
 
-#comments-popup {
-  background-color: white;
-  position: fixed;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 1100px;
-  height: 590px;
-  padding: 2rem;
-  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
-  z-index: 1000;
+/* COMMENTS */
 
-  /* visibility: hidden; */
+.comments-wrapper {
+  display: flex;
+  gap: 4rem;
+}
 
-  /* opacity: 0; */
-  transition: 0.5s;
-  border-radius: 13px;
+/* PART 1 */
+.wrapper-p1 {
+  width: 59%;
+}
+
+.all-comments {
+  font-size: 1.5rem;
+  max-height: 176px;
+  overflow-y: scroll;
+  background-color: #fafafa;
+  border-radius: 10px;
+}
+
+.heading-1 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.comment {
+  padding: 0.5rem;
+}
+
+.name-com {
+  display: flex;
+  font-size: 2rem;
+  gap: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.comment-detail {
+  color: #555;
+}
+
+.comment-line {
+  border-bottom: 2px solid #ffe70e;
+}
+
+/* PART 2 */
+.wrapper-p2 {
+  width: 40%;
+}
+
+.heading-2 {
+  padding: 0.7rem;
+  font-size: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-name {
+  padding: 0.7rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+}
+
+.comment-description {
+  padding: 0.5rem;
+  height: 80px;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.no-comments {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.submit {
+  padding: 0.5rem;
+  border-radius: 8px;
+  width: 50%;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1365px) {
+  html {
+    font-size: 60%;
+  }
+
+  .type-icon {
+    position: absolute;
+    width: 80px;
+    height: 70px;
+  }
+
+  .rock {
+    top: 45%;
+    left: 28%;
+  }
+
+  .water {
+    top: 43%;
+    left: 65%;
+  }
+
+  .lightning {
+    top: 66%;
+    left: 26%;
+  }
+
+  .fire {
+    top: 65%;
+    left: 65%;
+  }
+}
+
+@media (max-width: 1100px) {
+  html {
+    font-size: 58%;
+  }
+
+  .type-icon {
+    position: absolute;
+    width: 70px;
+    height: 60px;
+  }
+
+  .rock {
+    top: 39%;
+    left: 28%;
+  }
+
+  .water {
+    top: 38%;
+    left: 65%;
+  }
+
+  .lightning {
+    top: 52.7%;
+    left: 26%;
+  }
+
+  .fire {
+    top: 52%;
+    left: 65%;
+  }
+
+  .pokemon-card {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3.5rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 54%;
+  }
+
+  .type-icon {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+  }
+
+  .rock {
+    top: 34%;
+    left: 28%;
+  }
+
+  .water {
+    top: 33%;
+    left: 65%;
+  }
+
+  .lightning {
+    top: 44.2%;
+    left: 27%;
+  }
+
+  .fire {
+    top: 44%;
+    left: 65%;
+  }
+
+  .pokemon-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 580px) {
+  html {
+    font-size: 50%;
+  }
+
+  .type-icon {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+  }
+
+  .rock {
+    top: 29.5%;
+    left: 29%;
+  }
+
+  .water {
+    top: 29%;
+    left: 65.5%;
+  }
+
+  .lightning {
+    top: 37%;
+    left: 27%;
+  }
+
+  .fire {
+    top: 36.8%;
+    left: 64.5%;
+  }
 }
