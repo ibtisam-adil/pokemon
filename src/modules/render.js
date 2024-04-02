@@ -3,9 +3,9 @@ import renderPopup from './popup.js';
 import Likes from './likes.js';
 
 const likes = new Likes();
+likes.getLikes();
 
 const renderPokemon = () => {
-  likes.getLikes();
   const pokemonCard = document.querySelector('.pokemon-card');
   pokemonCard.innerHTML = pokemons.map((pokemon, id) => (
     `<div class="cards-wrapper">
@@ -50,7 +50,7 @@ const renderPokemon = () => {
             <button id="${id}" class="see-more">See More</button>
             <div class="likes">
               <span id="${id}" class="heart">&hearts;</span>
-              <p data-id="${id}">Likes</p>
+              <p data-id="${id}"></p>
             </div>  
           </div>
         </div>
@@ -75,7 +75,6 @@ const renderPokemon = () => {
     hearts.addEventListener('click', (e) => {
       e.target.style.color = 'red';
       likes.updateLikes(e.target.id);
-      renderPokemon();
     });
   });
 };
