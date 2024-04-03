@@ -56,10 +56,10 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="To-do List"></a>
+## 🚀 Live Demo <a name="Pokemon"></a>
 
-https://awesomebooksv2.netlify.app/
-This is live version of my protfolio project.you can click on this link to watch live demo
+https://pokemondiscovery.netlify.app
+This is live version of my pokemon project.you can click on this link to watch live demo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
