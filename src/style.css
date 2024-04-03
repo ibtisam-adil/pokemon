@@ -287,8 +287,8 @@ ul.ul li {
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 1100px;
-  height: 590px;
+  width: 82%;;
+  height: 79%;
   padding: 0.5rem 1rem;
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
   z-index: 100;
@@ -319,10 +319,15 @@ ul.ul li {
   align-items: center;
 }
 
+.popup-img img {
+  width: 100%;
+}
+
 .popup-description {
   width: 57%;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .popup-poke-name {
@@ -390,7 +395,7 @@ ul.ul li {
 
 .comments-wrapper {
   display: flex;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 /* PART 1 */
@@ -573,6 +578,15 @@ ul.ul li {
   .pokemon-card {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .comment-description {
+    padding: 0.5rem;
+    height: 40px;
+  }
+
+  .submit {
+    width: 64%;
+  }
 }
 
 @media (max-width: 580px) {
@@ -604,5 +618,9 @@ ul.ul li {
   .fire {
     top: 36.8%;
     left: 64.5%;
+  }
+
+  .comments-wrapper {
+    gap: 0.5rem;
   }
 }
