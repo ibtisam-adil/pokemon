@@ -1,39 +1,152 @@
-<a href="https://www.freepik.com/free-vector/rain-droplet-into-rings_90435802.htm#query=water%20element%20symbol&position=10&from_view=keyword&track=ais&uuid=df138dc7-a4d1-4a8e-b32f-108178e1eede">Image by juicy_fish</a> on Freepik
+<a name="readme-top"></a>
 
-<a href="https://www.freepik.com/free-psd/fire-element-illustration_42064054.htm#fromView=search&page=1&position=51&uuid=f646d0c4-91d3-48e9-8eca-b80f244296d6">Image by freepik</a>
+<!-- TABLE OF CONTENTS -->
 
-<a href="https://www.freepik.com/free-vector/isometric-tropical-island-with-desert_9166862.htm#fromView=search&page=1&position=4&uuid=fd86a3f0-6451-4053-bd87-6bf64b5665a2">Image by valadzionak_volha on Freepik</a>
+# 📗 Table of Contents
 
-<a href="https://www.freepik.com/free-photo/3d-render-flash-lightning-sale-thunder-bolt-icon_35817152.htm#fromView=search&page=1&position=22&uuid=fbca7045-104d-4167-b35c-9fad9f5c10d4">Image by upklyak on Freepik</a>
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-<a href="https://www.freepik.com/free-vector/textured-background-design_919046.htm#fromView=search&page=1&position=7&uuid=dfffca56-d7f0-4cf3-ac26-838ecc5b51ed">Image by asmaarzq on Freepik</a>
+<!-- PROJECT DESCRIPTION -->
+
+# 🎬 AwesomeBooks <a name="about-project"></a>
+
+"Pokemon" is a JavaScript web app that brings Pokémon to life with a dynamic interface and intuitive navigation. Users choose from rock, water, fire, and lightning Pokémon types, floating around a Pokeball. Leveraging an external API, the app fetches Pokémon data, enabling exploration and interaction through liking and commenting features. Implemented with classes, these features seamlessly integrate with the API for a smooth user experience.
+
+## 🛠 Built With <a name="built-with"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **It has linters**
+- **It has html**
+- **It has CSS**
+- **It has javascript**
+- **Responsive design**
+- **Feature speakers part is fully made dynamically by JavaScript**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="To-do List"></a>
+
+https://awesomebooksv2.netlify.app/
+This is live version of my protfolio project.you can click on this link to watch live demo
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+Step 1: if you don't have git installed on your machine you can download it from [here](https://git-scm.com/downloads).
+
+Once you have git installed on your machine you can clone your project by running the command below to clone your project to your local machine
+
+`git clone https://github.com/ibtisam-adil/pokemon.git`
+
+Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
+
+Step 2: Locate the folder where you cloned your project to and open the `index.html` file in your browser to view your project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Author <a name="authors"></a>
+
+👤 **Ibtisam Adil**
+
+- GitHub: [@ibtisam-adil](https://github.com/ibtisam-adil)
+- Twitter: [@ibtisam__adil](https://twitter.com/Ibtisam__adil)
+- LinkedIn: [ibtisamadildev](https://www.linkedin.com/in/ibtisamadildev)
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- **More detailed**
+- **Master HTML**
+- **deskstop version**
+-
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 📼 Project Walkthrough <a name="project-walk"></a>
 
 
-/* LIGHTNING TYPES  */
-/* .electric-types {
-  height: 100vh;
-  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
-} */
 
-/* ROCK TYPES  */
-/* .rock-types {
-  height: 100vh;
-  background: linear-gradient(
-    87.4deg,
-    rgb(255, 241, 165) 1.9%,
-    rgb(200, 125, 76) 49.7%,
-    rgb(83, 54, 54) 100.5%
-  );
-} */
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-/* FIRE TYPES  */
-/* .fire-types {
-  height: 100vh;
-  background-color: #ffcb43;
-  background-image: linear-gradient(
-    319deg,
-    #ffcb43 0%,
-    #ff6425 37%,
-    #ff0016 100%
-  );
-} */
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+**please show your support to improve my skills .this will help me to work hard**
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+"Special thanks to my coding partner "Muneeb Rehman" for their invaluable contributions to this project. Their dedication, skills, and collaborative spirit were essential to our success."
+
+## 🙏 Credit <a name="credit"></a>
+
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./license.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
