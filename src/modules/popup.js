@@ -12,7 +12,7 @@ const renderPopup = (id) => {
     </div>
     <div class="popup-wrapper">
       <div class="popup-img">
-        <img src="${pop.sprites.front_default}" height="420px"/>
+        <img src="${pop.sprites.front_default}"/>
       </div>
       <div class="popup-description">
         <div class="name-type">
