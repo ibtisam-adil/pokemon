@@ -67,6 +67,7 @@ const renderPokemon = () => {
     btn.addEventListener('click', () => {
       renderPopup(id);
       togglePopup();
+      document.body.style.overflow = 'hidden';
     });
   });
 

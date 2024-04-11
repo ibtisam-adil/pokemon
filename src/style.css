@@ -42,6 +42,7 @@ body {
   display: flex;
   gap: 5rem;
   font-size: 2.5rem;
+  font-weight: bold;
   color: #fff;
   text-decoration: none;
 }
@@ -288,8 +289,9 @@ ul.ul li {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 82%;
-  height: 79%;
-  padding: 0.5rem 1rem;
+
+  /* height: 79%; */
+  padding: 1rem 2rem;
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
   z-index: 100;
   visibility: hidden;
@@ -320,14 +322,14 @@ ul.ul li {
 }
 
 .popup-img img {
-  width: 100%;
+  width: 65%;
 }
 
 .popup-description {
   width: 57%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  gap: 0.5rem;
 }
 
 .popup-poke-name {
@@ -400,7 +402,7 @@ ul.ul li {
 
 /* PART 1 */
 .wrapper-p1 {
-  width: 59%;
+  width: 50%;
 }
 
 .all-comments {
@@ -575,6 +577,11 @@ ul.ul li {
     left: 65%;
   }
 
+  /* .popup-wrapper {
+    display: flex;
+    flex-direction: column;
+  } */
+
   .pokemon-card {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -592,6 +599,23 @@ ul.ul li {
 @media (max-width: 580px) {
   html {
     font-size: 50%;
+  }
+
+  .links {
+    gap: 1rem;
+  }
+
+  .navbar .links a {
+    font-size: 2rem;
+  }
+
+  .pokemon {
+    padding: 1rem;
+    min-height: 430px;
+  }
+
+  .poke-logo {
+    width: 32px;
   }
 
   .type-icon {
@@ -620,7 +644,7 @@ ul.ul li {
     left: 64.5%;
   }
 
-  .comments-wrapper {
-    gap: 0.5rem;
+  .all-comments {
+    max-height: 120px;
   }
 }
