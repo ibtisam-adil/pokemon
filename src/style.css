@@ -577,11 +577,6 @@ ul.ul li {
     left: 65%;
   }
 
-  /* .popup-wrapper {
-    display: flex;
-    flex-direction: column;
-  } */
-
   .pokemon-card {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -619,29 +614,7 @@ ul.ul li {
   }
 
   .type-icon {
-    position: absolute;
-    width: 30px;
-    height: 20px;
-  }
-
-  .rock {
-    top: 29.5%;
-    left: 29%;
-  }
-
-  .water {
-    top: 29%;
-    left: 65.5%;
-  }
-
-  .lightning {
-    top: 37%;
-    left: 27%;
-  }
-
-  .fire {
-    top: 36.8%;
-    left: 64.5%;
+    visibility: hidden;
   }
 
   .all-comments {
