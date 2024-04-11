@@ -50,7 +50,6 @@
 - **It has CSS**
 - **It has javascript**
 - **Responsive design**
-- **Feature speakers part is fully made dynamically by JavaScript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,15 +94,6 @@ Step 2: Locate the folder where you cloned your project to and open the `index.h
 - Twitter: [@ibtisam__adil](https://twitter.com/Ibtisam__adil)
 - LinkedIn: [ibtisamadildev](https://www.linkedin.com/in/ibtisamadildev)
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- **More detailed**
-- **Master HTML**
-- **deskstop version**
--
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 📼 Project Walkthrough <a name="project-walk"></a>
 
@@ -136,10 +126,6 @@ Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 "Special thanks to my coding partner "Muneeb Rehman" for their invaluable contributions to this project. Their dedication, skills, and collaborative spirit were essential to our success."
-
-## 🙏 Credit <a name="credit"></a>
-
-Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
