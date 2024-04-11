@@ -133,11 +133,12 @@ nav.sticky {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 4.5rem;
-  background: linear-gradient(
-    109.6deg,
-    rgb(255, 219, 47) 11.2%,
-    rgb(244, 253, 0) 100.2%
-  );
+  background:
+    linear-gradient(
+      109.6deg,
+      rgb(255, 219, 47) 11.2%,
+      rgb(244, 253, 0) 100.2%
+    );
   padding: 3.5rem;
 }
 
@@ -149,11 +150,12 @@ nav.sticky {
 
 .pokemon {
   width: 69%;
-  background: radial-gradient(
-    circle at 24.1% 68.8%,
-    rgb(50, 50, 50) 0%,
-    rgb(0, 0, 0) 99.4%
-  );
+  background:
+    radial-gradient(
+      circle at 24.1% 68.8%,
+      rgb(50, 50, 50) 0%,
+      rgb(0, 0, 0) 99.4%
+    );
   border: 3px solid #aed8d7;
   border-radius: 10px;
   display: flex;
@@ -287,6 +289,7 @@ ul.ul li {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 82%;
+
   /* height: 79%; */
   padding: 1rem 2rem;
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
