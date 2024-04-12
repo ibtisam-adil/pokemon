@@ -76,6 +76,7 @@ const renderPopup = (id) => {
     const popup = document.querySelector('#popup');
     blur.classList.toggle('active');
     popup.classList.toggle('active');
+    document.body.style.overflow = 'auto';
   });
 
   const form = document.querySelector('.form');
