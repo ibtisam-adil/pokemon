@@ -57,7 +57,7 @@
 
 ## 🚀 Live Demo <a name="Pokemon"></a>
 
-https://pokemondiscovery.netlify.app
+[@Pokemon](https://pokemondiscovery.netlify.app)
 This is live version of my pokemon project.you can click on this link to watch live demo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
