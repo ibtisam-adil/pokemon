@@ -125,7 +125,7 @@ Give a ⭐️ if you like this project!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-"Special thanks to my coding partner "Muneeb Rehman" for their invaluable contributions to this project. Their dedication, skills, and collaborative spirit were essential to our success."
+"Special thanks to my coding partner "Muneeb Ur Rehman" for their invaluable contributions to this project. Their dedication, skills, and collaborative spirit were essential to our success."
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
